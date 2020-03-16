@@ -11,7 +11,7 @@ C/C++ Library for Executing Code in another Process
 
 
 ### Usage Example (Swift):
-```
+```Swift
 import Foundation
 
 let pid = find_pid_by_name("Finder");
