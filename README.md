@@ -10,6 +10,18 @@ C/C++ Library for Executing Code in another Process
 `RemoteExecDlopen()`: Loads a dynamic library from the give path via dlopen() func.
 
 
+```
+|v1|
+  Initial Commit
+
+|v2|
+  Code better organized, future proof for easy creation of new code modules
+  Cons:
+  - Size increased from 14kb to 21kb
+  - Since functions from c++ standard library is used, ever project that uses this library has to link them either by adding `-lstdc++` to `OTHER_LINKER_FLAGS` or adding a `.cpp` file to their project (can be an empty one)
+```
+
+
 ### Usage Example (Swift):
 ```
 import Foundation
