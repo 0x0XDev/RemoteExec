@@ -1,5 +1,5 @@
 ## RemoteExec
-C/C++ Library for Executing Code in another Process 
+C/C++ Library for Code Injection
 
 
 
