@@ -43,3 +43,7 @@ RemoteExecDlopen(port, dlpath)
 
 > Note:
 Getting the Task Port may require partly disabling SIP and running as root, depending on the OSX-Version
+
+### Simple GUI
+
+![Screenshot](https://i.imgur.com/mOoIm4D.png)
